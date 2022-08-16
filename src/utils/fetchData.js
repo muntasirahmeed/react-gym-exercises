@@ -1,9 +1,10 @@
 export const exerciseOptions = {
   method: "GET",
-  url: "https://exercisedb.p.rapidapi.com/exercises/equipment/%7Btype%7D",
   headers: {
     "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
+    "Content-Type": "text/html",
+    "Retry-After": 3600,
   },
 };
 
