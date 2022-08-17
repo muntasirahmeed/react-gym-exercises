@@ -37,12 +37,3 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
 );
 
 export default BodyPart;
-// sx={{
-//   borderTop: bodyPart === item ? "4px solid #FF2625" : "",
-//   backgroundColor: "#fff",
-//   borderBottomLeftRadius: "20px",
-//   width: "270px",
-//   height: "282px",
-//   cursor: "pointer",
-//   gap: "47px",
-// }}
