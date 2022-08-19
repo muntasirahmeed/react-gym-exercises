@@ -1,6 +1,6 @@
-import { Box } from "@mui/material";
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Box } from "@mui/material";
+
 import Detail from "../components/Detail";
 import ExerciseVideos from "../components/ExerciseVideos";
 import SimilarExercises from "../components/SimilarExercises";
