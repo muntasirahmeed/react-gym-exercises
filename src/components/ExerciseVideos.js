@@ -4,7 +4,7 @@ const ExerciseVideos = () => {
     
     return (
         <div>
-            
+            exerciseVideos
         </div>
     );
 };
