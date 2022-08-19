@@ -31,8 +31,8 @@ const Detail = ({ exerciseDetail }) => {
       <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
         <Typography
-          sx={{ fontSize: { lg: "64px", xs: "30px" } }}
-          fontWeight={700}
+          sx={{ fontSize: { lg: "55px", xs: "30px" } }}
+          fontWeight={600}
           textTransform="capitalize"
         >
           {name}
@@ -43,8 +43,8 @@ const Detail = ({ exerciseDetail }) => {
         >
           Exercises keep you strong.{" "}
           <span style={{ textTransform: "capitalize" }}>{name}</span> bup is one
-          of the best <br /> exercises to target your {target}. It will help you
-          improve your <br /> mood and gain energy.
+          of the best exercises to target your {target}. It will help you
+          improve your mood and gain energy.
         </Typography>
         {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
