@@ -11,7 +11,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         sx={{ fontSize: { lg: "44px", xs: "25px" } }}
         fontWeight={700}
         color="#000"
-        mb="33px"
+        mb="40px"
       >
         Watch{" "}
         <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
