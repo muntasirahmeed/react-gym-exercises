@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
 import React, { useState } from 'react';
 import Exercises from '../components/Exercises';
+import Footer from '../components/Footer';
 import HeroBanner from '../components/HeroBanner';
 import SearchExercises from '../components/SearchExercises';
 
